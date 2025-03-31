@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daudi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Daudi Lusigi</h1>
+        <nav>
+            <a href="#personal">Personal</a> | 
+            <a href="#hobbies">Hobbies</a> | 
+            <a href="#links">Links</a> |
+            <a href="#form">Form</a>
+        </nav>
+    </header>
+<style>
+        /* Background styling */
+        body {
+            background-color: #f4f1de; /* Soft beige background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+       
+</style>
+
+    <section id="personal">
+        <h2>Personal Information</h2>
+        <img src="daudi/profile.jpg" alt="Profile Photo" class="profile">
+        <p><strong>Name:</strong> Daudi Lusigi</p>
+        <p><em>From:</em> Dodoma, Tanzania</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <p>I enjoy web development and outdoor activities.</p>
+        <p>My favorite quote: <blockquote>"do what you can and the best let to God." - Vladimir Putin</blockquote></p>
+        <br>
+        <h3>My Top 10 CDs</h3>
+        <ol>
+            <li>The Great Gatsby</li>
+            <li>Programming with Me</li>
+            <li>The Pragmatic Programmer</li>
+            <li>Clean Code</li>
+            <li>The Art of Computer Programming</li>
+             <li>The Code war</li>
+            <li>Ciber security</li>
+            <li>Ethical hacking</li>
+            <li>Secure your System</li>
+            <li>Develeop with Us</li>
+        </ol>
+        
+    </section>
+
+    <section id="links">
+        <h2>Favorite Links</h2>
+        <ul>
+            <li><a href="https://www.out.ac.tz" target="_blank">Open University of Tanzania</a></li>
+            <li><a href="https://ict.out.ac.tz" target="_blank">ICT Department</a></li>
+            <li><a href="https://www.tpdf.mil.tz" target="_blank">TPDF Tanzania</a></li>
+            <li><a href="https://www.cyberranges.com" target="_blank">Cyber Training</a></li>
+            <li><a href="form.html">Submit Your Info</a></li>
+            
+        </ul>
+    </section>
+
+<section id="form">
+<body>
+    <div class="form-container">
+        <h2>Personal Information Form</h2>
+        <form action="process.php" method="POST">
+            First Name: <input type="text" name="firstname" required><br>
+            Last Name: <input type="text" name="lastname" required><br>
+            <br>
+            Gender:
+            <input type="radio" name="gender" value="Male" required> Male
+            <input type="radio" name="gender" value="Female"> Female<br>
+            <br>
+            Please choose your Favorite Foods:<br>
+            
+            <input type="checkbox" name="foods[]" value="Steak"> Steak<br>
+            <input type="checkbox" name="foods[]" value="Pizza"> Pizza <br>
+            <input type="checkbox" name="foods[]" value="Chicken"> Chicken <br>
+            <br>
+            Favorite Quote: <textarea name="quote" required></textarea><br>
+            <br>
+            Education Level:
+            <select name="education" required>
+                <option value="Jr High">Jr.High</option>
+                <option value="High School">Secondary School</option>
+            </select><br>
+            <br>
+            Favorite Time:
+            <select name="time" required>
+                <option value="Morning">Morning</option>
+                <option value="Day">Day</option>
+                <option value="Night">Night</option>
+            </select><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</sections>
+<h2>The following is information about Dododoma</h2>
+
+      
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodoma City Information</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4a261;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+
+
+
+    <h2 style="text-align:center;">Dodoma City Information</h2>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Details</th>
+            <th>Additional Info</th>
+            <th>Notes</th>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td>Tanzania</td>
+            <td>Located in East Africa</td>
+            <td>One of the fastest-growing cities</td>
+        </tr>
+        <tr>
+            <td>Region</td>
+            <td>Dodoma Region</td>
+            <td>Central part of Tanzania</td>
+            <td>Known for its dry climate</td>
+        </tr>
+        <tr>
+            <td>Established</td>
+            <td>1907</td>
+            <td>Founded during German colonial rule</td>
+            <td>Originally a small market town</td>
+        </tr>
+        <tr>
+            <td>Capital Status</td>
+            <td>Became capital in 1974</td>
+            <td>Replaced Dar es Salaam as capital</td>
+            <td>Government fully moved in 2016</td>
+        </tr>
+        <tr>
+            <td>Population</td>
+            <td>Approx. 765,000 (2022)</td>
+            <td>Growing due to urban migration</td>
+            <td>Expected to reach 1 million by 2030</td>
+        </tr>
+        <tr>
+            <td>Climate</td>
+            <td>Semi-arid (hot and dry)</td>
+            <td>Rainfall mainly from November to April</td>
+            <td>Temperature ranges from 13°C to 33°C</td>
+        </tr>
+        <tr>
+            <td>Main Economic Activities</td>
+            <td>Agriculture, Trade, Government Administration</td>
+            <td>Major crops: grapes, millet, groundnuts</td>
+            <td>Wine production is a growing industry</td>
+        </tr>
+        <tr>
+            <td>Landmarks</td>
+            <td>Parliament of Tanzania, Gaddafi Mosque, Nyerere Square</td>
+            <td>Also home to the University of Dodoma</td>
+            <td>Attracts local and international tourists</td>
+        </tr>
+        <tr>
+            <td>Coordinates</td>
+            <td>6.1731° S, 35.7410° E</td>
+            <td>Central Tanzania location</td>
+            <td>Well connected by road and rail</td>
+        </tr>
+        <tr>
+            <td>Transport</td>
+            <td>Road, Rail, Air</td>
+            <td>Central Railway Line passes through</td>
+            <td>Dodoma Airport under expansion</td>
+        </tr>
+        <tr>
+            <td>Education</td>
+            <td>Open University, University of Dodoma</td>
+            <td>Several technical colleges and schools</td>
+            <td>Education sector is rapidly growing</td>
+        </tr>
+        <tr>
+            <td>Culture</td>
+            <td>Mix of indigenous Gogo culture and modern influences</td>
+            <td>Traditional music, dances, and crafts</td>
+            <td>Annual cultural festivals held</td>
+        </tr>
+        <tr>
+            <td>Challenges</td>
+            <td>Water shortages, infrastructure development</td>
+            <td>Government working on solutions</td>
+            <td>Investment in water projects increasing</td>
+        </tr>
+    </table>
+
+
+
+
+    
+    <footer>
+        <script>
+            document.write(`Page location: ${window.location.href}<br>`);
+            document.write(`Last modified: ${document.lastModified}`);
+        </script>
+    </footer>
+</body>
+</html>

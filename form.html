@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Information Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Personal Information Form</h2>
+        <form action="process.php" method="POST">
+            First Name: <input type="text" name="firstname" required><br>
+            Last Name: <input type="text" name="lastname" required><br>
+            <br>
+            Gender:
+            <input type="radio" name="gender" value="Male" required> Male
+            <input type="radio" name="gender" value="Female"> Female<br>
+            <br>
+            Please choose your Favorite Foods:<br>
+            
+            <input type="checkbox" name="foods[]" value="Steak"> Steak<br>
+            <input type="checkbox" name="foods[]" value="Pizza"> Pizza <br>
+            <input type="checkbox" name="foods[]" value="Chicken"> Chicken <br>
+            <br>
+            Favorite Quote: <textarea name="quote" required></textarea><br>
+            <br>
+            Education Level:
+            <select name="education" required>
+                <option value="Jr High">Jr.High</option>
+                <option value="High School">Secondary School</option>
+            </select><br>
+            <br>
+            Favorite Time:
+            <select name="time" required>
+                <option value="Morning">Morning</option>
+                <option value="Day">Day</option>
+                <option value="Night">Night</option>
+            </select><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
